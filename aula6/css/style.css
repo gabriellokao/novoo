@@ -1,0 +1,8 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(red, black);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

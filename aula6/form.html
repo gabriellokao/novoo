@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada de dados HTML.</title>
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Formulário HTML</h1>
+    </header>
+
+    <main>
+        
+
+    <section>
+        <h4>Formulário</h4>
+        <form action="#">
+            <div>
+               <label for="campo1"> Nome </label>
+               <input type="text" name="campo1" id="campo1" maxlength="20" minlength="2" require> 
+            </div>
+
+            <div>
+                <label for="campo2"> Qual seu aniversario</label>
+                <input type="text" name="campo2" id="campo2" maxlength="20" minlength="2" required>
+            </div>
+
+             <div>
+               <span> Você gosta de gatos???</span>
+               <br>
+               <input type="radio" name="animal" id="sla" value="Sim" required>
+               <label for="">Sim</label>
+               <input type="radio" name="animal" id="sla" value="Talvez" required>
+               <label for="">Talvez</label>
+               <input type="radio" name="animal" id="sla" value="Não" required>
+               <label for="">Não</label> 
+            </div>
+
+             <div>
+               <label for="campo3">Quantos gatos você gostaria de ter??</label>
+               <input type="number" name="campo1" id="campo3" max="100" min="10" step="10" required> 
+            </div>
+
+            <div>
+                <label for="aniversario"> Quando quer pagar novamente pelo curso?</label>
+                <input type="date" name="" id="aniversario" min="2026-02-18" max="2027-02-18">
+            </div>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar tudo">
+        </form>
+    </section>
+    
+    </main>
+    
+</body>
+</html>
