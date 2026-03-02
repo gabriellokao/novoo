@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap');
+
+h1 {
+    font-family: "Rock salt";
+    text-align: center;
+}
+
+label {
+       font-family: "Google Sans";
+       display: block;
+       margin-top: 10px;
+       font-weight: bold;
+}
+
+label::after {
+    content: "⬅️";
+    font-size: 14pt;
+}
+label::before {
+    content: "➡️";
+    font-size: 14pt;
+}
+
+main {
+    width: 50%;
+    color: rgb(185, 143, 143);
+    background-color: rgb(117, 55, 117);
+    padding: 5px 20px 30px 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 8px 8px 30px black;
+    border-radius: 5px;
+}
+
+small {
+    display: block;
+    color: crimson;
+}
+
+button {
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+ul {
+    font-family: "Playfair Display";
+}
+
+input, select {
+    font-size: 12pt;
+    padding: 7px;
+    border-radius:6px;
+}
+
+#box-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    body {
+        background-color: rgb(192, 10, 86); 
+
+    }
+}
